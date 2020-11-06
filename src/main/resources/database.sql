@@ -1,4 +1,5 @@
-
+create database recipe;
+use recipe;
 create table ingredient(
     id int(11) not null AUTO_INCREMENT,
     name varchar(100) not null,
